@@ -16,10 +16,9 @@
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "tailwindcss": "^4.0.0",
+    "@tailwindcss/postcss": "^4.1.10",
     "autoprefixer": "^10.4.15",
-    "postcss": "^8.4.30"
+    "postcss": "^8.4.30",
+    "tailwindcss": "^4.0.0"
   }
 }
-
-  
