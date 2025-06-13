@@ -86,21 +86,14 @@ export default function AboutPage() {
 
   return (
     <Layout title="About - SmartScan Legal">
-      {/* Background Video */}
-      <section className="relative">
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="w-full h-[400px] object-cover"
-          src="/video1.mp4"
-        />
-        <div className="absolute top-0 left-0 h-full flex items-center pl-8">
-          <h2 className="text-3xl font-bold text-white drop-shadow-md">
-            From Contract to Clarity in Seconds
-          </h2>
-        </div>
+      {/* Background Image Section */}
+      <section
+        className="relative w-full h-[400px] bg-cover bg-center flex items-center pl-8"
+        style={{ backgroundImage: "url('/image1.jpg')" }}
+      >
+        <h2 className="text-3xl font-bold text-white drop-shadow-md">
+          From Contract to Clarity in Seconds
+        </h2>
       </section>
 
       {/* About */}
